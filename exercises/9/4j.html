@@ -1,0 +1,21 @@
+<button class="Shadow">Shadow</button>
+
+<style>
+  .Shadow{
+    color: white;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  .Shadow:hover{
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    transition: box-shadow 0.2s;
+  }
+  .Shadow:active{
+    margin-top: 1px;
+    margin-left: 1px;
+    box-shadow: none;
+    transition: box-shadow none;
+  }
+</style>
